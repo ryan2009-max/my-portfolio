@@ -16,3 +16,22 @@ body{
     background: #222;
     
 }
+.wrapper{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
