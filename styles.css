@@ -121,7 +121,7 @@ transition: 0.5s;
     color: #007ced;
     font-size: 16px;
 }
-hero-text h1{
+.hero-text h1{
     color: #007ced;
     font-size: 3rem;
 }
