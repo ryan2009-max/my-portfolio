@@ -148,3 +148,45 @@ transition: 0.5s;
     
 }
 /*responsive design and displaying vabar for small screen*/
+@media(max-width:930px)
+{
+    nav .togglebt{
+        display: initial;
+    }
+    .click{
+        top: 45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+        }
+        .click span:nth-child(2)
+        {
+            opacity: 0;
+            margin: 0;
+
+        }
+        .click span:last-child{
+        transform: rotate(45beg);
+        top: 0;
+        
+    }
+    nav .navlinks{
+        position: absolute;
+        top: 10px;
+        right: -100%;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: #222;
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+    
+    
+}
