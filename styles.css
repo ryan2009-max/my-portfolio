@@ -128,3 +128,16 @@ hero-text h1{
 .hero-text p{
     color: #e5e5e5;
 }
+.btn-group{
+    margin: 45px;
+}
+.btn-group btn{
+    border-color: #b5b5b5;
+    color: #fff;
+    border-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border-radius: 30px;
+    border: 2px solid #e5e5e5;
+}
