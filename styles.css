@@ -212,3 +212,14 @@ transition: 0.5s;
        right: 0;
     }
 }
+@media(max-width: 768px)
+{
+    .container{
+        flex-direction: column;
+    padding-top: 2rem;
+    
+    }
+    .hero-text{
+        padding:40px 
+        }
+}
