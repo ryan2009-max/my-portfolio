@@ -147,6 +147,17 @@ transition: 0.5s;
     border-color: #007ced;
     
 }
+.hero-text .social i{
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+
+}
+.hero-text .social i:hover{
+    color: #007ced;
+    transform: rotate(360dec);
+}
 /*responsive design and displaying vabar for small screen*/
 @media(max-width:930px)
 {
